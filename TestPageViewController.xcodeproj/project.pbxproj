@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A30E67FE2011902700F64CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E67FD2011902700F64CB8 /* AppDelegate.swift */; };
-		A30E68002011902700F64CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E67FF2011902700F64CB8 /* ViewController.swift */; };
+		A30E68002011902700F64CB8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E67FF2011902700F64CB8 /* PageViewController.swift */; };
 		A30E68032011902700F64CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E68012011902700F64CB8 /* Main.storyboard */; };
 		A30E68052011902700F64CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E68042011902700F64CB8 /* Assets.xcassets */; };
 		A30E68082011902700F64CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E68062011902700F64CB8 /* LaunchScreen.storyboard */; };
 		A30E68132011902700F64CB8 /* TestPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E68122011902700F64CB8 /* TestPageViewControllerTests.swift */; };
 		A30E681E2011902700F64CB8 /* TestPageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E681D2011902700F64CB8 /* TestPageViewControllerUITests.swift */; };
+		A30E682C2011979A00F64CB8 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E682B2011979A00F64CB8 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		A30E67FA2011902700F64CB8 /* TestPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30E67FD2011902700F64CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A30E67FF2011902700F64CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A30E67FF2011902700F64CB8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A30E68022011902700F64CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30E68042011902700F64CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30E68072011902700F64CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		A30E68192011902700F64CB8 /* TestPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30E681D2011902700F64CB8 /* TestPageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPageViewControllerUITests.swift; sourceTree = "<group>"; };
 		A30E681F2011902700F64CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E682B2011979A00F64CB8 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A30E67FD2011902700F64CB8 /* AppDelegate.swift */,
-				A30E67FF2011902700F64CB8 /* ViewController.swift */,
+				A30E67FF2011902700F64CB8 /* PageViewController.swift */,
 				A30E68012011902700F64CB8 /* Main.storyboard */,
 				A30E68042011902700F64CB8 /* Assets.xcassets */,
 				A30E68062011902700F64CB8 /* LaunchScreen.storyboard */,
 				A30E68092011902700F64CB8 /* Info.plist */,
+				A30E682B2011979A00F64CB8 /* ContentViewController.swift */,
 			);
 			path = TestPageViewController;
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A30E68002011902700F64CB8 /* ViewController.swift in Sources */,
+				A30E68002011902700F64CB8 /* PageViewController.swift in Sources */,
+				A30E682C2011979A00F64CB8 /* ContentViewController.swift in Sources */,
 				A30E67FE2011902700F64CB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = TestPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestPageViewController;
@@ -442,7 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K47XFPHWTJ;
+				DEVELOPMENT_TEAM = 695E8J3HA4;
 				INFOPLIST_FILE = TestPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.TestPageViewController;
